@@ -15,7 +15,7 @@ export default function FunctionContextComponent() {
 	return (
 		<>
 			<button onClick={toggleDarkMode} style={{ margin: '1rem 2rem 0 2rem' }}>
-				toggle
+				Toggle Dark Mode
 			</button>
 			<div style={themeStyles}>Function Context</div>
 		</>
